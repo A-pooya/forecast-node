@@ -5,7 +5,7 @@ const {Weather} = require('./WeatherClass');
 
 const weather = new Weather("tehran")
 
-const code;
+let code;
 
 weather.getCityApi()
 .then(res =>{ console.log(res); 
