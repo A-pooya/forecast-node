@@ -14,7 +14,8 @@ async getCityApi() {
 }    
 
 async getForecastApi(cityCode) {
-   const response = await axios.get(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityCode}?apikey=k07BDBtzvnYtHAp6FnGwXvhMxfgDYQzU`)    
+   const response = await axios.get(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityCode}?apikey=k07BDBtzvnYtHAp6FnGwXvhMxfgDYQzU`)  
+     return response
 }
 
 
